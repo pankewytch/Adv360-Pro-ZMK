@@ -2,13 +2,13 @@ macro_personal_mac: macro_personal_mac{
 compatible = "zmk,behavior-macro";
 label = "macro_personal_mac";
 #binding-cells = <0>;
-bindings = <&mo 3>, <&kp N2>;
+bindings = <&macro_press &mo 3>, <&macro_tap &kp N2>, <&macro_release &mo 3>;
 };
 macro_work_computer: macro_work_computer{
 compatible = "zmk,behavior-macro";
 label = "macro_work_computer";
 #binding-cells = <0>;
-bindings = <&mo 3>, <&kp N1>;
+bindings = <&macro_press &mo 3>, <&macro_tap &kp N1>, <&macro_release &mo 3>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
